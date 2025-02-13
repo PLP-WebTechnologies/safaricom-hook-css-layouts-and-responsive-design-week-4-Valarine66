@@ -24,3 +24,47 @@ Large screens (above 1024px): Display the layout as designed with Flexbox and Gr
 ### Bonus
 
 Add animations or transitions when resizing the screen.
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Webpage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">MyLogo</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="content">
+            <div class="text">
+                <h1>Welcome to Our Website</h1>
+                <p>Our website provides the latest insights and trends in web development, covering topics such as responsive design, accessibility, and performance optimization. Stay ahead with expert tutorials, industry news, and innovative techniques.</p>
+            </div>
+            <div class="image">
+                <img src="https://via.placeholder.com/400" alt="Placeholder Image">
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 MyWebsite | Follow us on 
+            <a href="#">Facebook</a>, <a href="#">Twitter</a>, <a href="#">Instagram</a>
+        </p>
+    </footer>
+</body>
+</html>
+
